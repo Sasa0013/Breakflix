@@ -1,0 +1,53 @@
+body {
+    color: rgb(243, 243, 243);
+    background: black;
+    margin: 0%;
+    font-family: "Sawarabi Mincho", serif;
+    margin-bottom: 10px;
+}
+
+heather {
+    border-bottom-style: double;
+    border-radius: 15px;
+    font-size: 40px;
+    color: rgb(180 34 132);
+}
+
+.cabeça {
+    background: rgb(180 34 132);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-clip: content-box;
+}
+
+.chama-texto {
+    margin-right: 5%;
+    ;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(180 34 132);
+}
+
+.categoria h2 {
+    color: rgb(180 34 132);
+}
